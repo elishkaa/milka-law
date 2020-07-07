@@ -10295,7 +10295,7 @@ header.masthead .masthead-heading {
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
-  text-align: left;
+  text-align: right;
 }
 .timeline > li .timeline-panel:before {
   right: auto;
