@@ -10508,3 +10508,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 .para-space {
   margin-top: 1rem !important;
 }
+.site-direction {
+  direction: rtl;
+}
