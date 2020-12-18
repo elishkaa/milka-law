@@ -9701,3 +9701,17 @@ p.body-font-size {
 .modal-body p {
   font-size: 16px;
 }
+
+.sub-page-nav {
+  background-color: #212529 !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.sub-page-nav img {
+  height: 2rem !important;
+}
+
+.sub-page-body {
+  padding-top: 5rem;
+}
