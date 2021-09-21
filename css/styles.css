@@ -9675,8 +9675,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
-  right: 40px;
+  bottom: 24px;
+  right: 24px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
