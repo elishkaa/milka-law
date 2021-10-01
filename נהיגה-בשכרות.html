@@ -45,6 +45,34 @@
 </head>
 
 <body id="page-top">
+    <!-- Messenger פלאגין של צ'אט Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your פלאגין של צ'אט code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "101189944808139");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/he_IL/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <!-- Message Whatsapp-->
     <a href="https://api.whatsapp.com/send?phone=972507516112&text=שלום, הגעתי מאתר עורכת דין מילכה אביחן אשמח לשיחה ראשונית לקבלת ייעוץ"
         class="float-button" target="_blank">
@@ -119,7 +147,7 @@
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-thumbnail.jpg"
                                     alt="נהיגה בשכרות/סמים" />
                             </p>
-                            <p class="text-center"><a href="https://milka-law.co.il/index.html#portfolio" class="btn btn-primary">חזור</a></p>
+                            <p class="text-center pt-5"><a href="https://milka-law.co.il/index.html#portfolio" class="btn btn-primary">חזור</a></p>
                         </div>
                     </div>
                 </div>
