@@ -1,67 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://milka-law.co.il/</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://milka-law.co.il/</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A9%D7%9B%D7%A8%D7%95%D7%AA.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A9%D7%9B%D7%A8%D7%95%D7%AA.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A4%D7%A1%D7%99%D7%9C%D7%94.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A4%D7%A1%D7%99%D7%9C%D7%94.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%96%D7%AA.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%96%D7%AA.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%93%D7%95%D7%97%D7%95%D7%AA-%D7%AA%D7%A0%D7%95%D7%A2%D7%94.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%93%D7%95%D7%97%D7%95%D7%AA-%D7%AA%D7%A0%D7%95%D7%A2%D7%94.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%9E%D7%A9%D7%A8%D7%93-%D7%A8%D7%99%D7%A9%D7%95%D7%99.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%9E%D7%A9%D7%A8%D7%93-%D7%A8%D7%99%D7%A9%D7%95%D7%99.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A9%D7%9B%D7%A8%D7%95%D7%AA.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A9%D7%9B%D7%A8%D7%95%D7%AA.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%96%D7%AA.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%96%D7%AA.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D.html</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://milka-law.co.il/index.html</loc>
-  <lastmod>2021-10-10T09:31:56+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://milka-law.co.il/#!</loc>
+	<lastmod>2022-05-20T13:35:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
-
-
+<url>
+	<loc>https://milka-law.co.il/index.html</loc>
+	<lastmod>2022-05-20T13:35:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A9%D7%9B%D7%A8%D7%95%D7%AA.html#!</loc>
+	<lastmod>2022-05-20T13:35:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A4%D7%A1%D7%99%D7%9C%D7%94.html#!</loc>
+	<lastmod>2022-05-20T13:35:55+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%96%D7%AA.html#!</loc>
+	<lastmod>2022-05-20T13:35:55+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D.html#!</loc>
+	<lastmod>2022-05-20T13:35:55+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%93%D7%95%D7%97%D7%95%D7%AA-%D7%AA%D7%A0%D7%95%D7%A2%D7%94.html#!</loc>
+	<lastmod>2022-05-20T13:35:56+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%A9%D7%9B%D7%A8%D7%95%D7%AA.html#!</loc>
+	<lastmod>2022-05-20T13:35:56+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%9E%D7%A9%D7%A8%D7%93-%D7%A8%D7%99%D7%A9%D7%95%D7%99.html#!</loc>
+	<lastmod>2022-05-20T13:35:56+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%91%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%96%D7%AA.html#!</loc>
+	<lastmod>2022-05-20T13:35:57+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/index.html#!</loc>
+	<lastmod>2022-05-20T13:35:57+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://milka-law.co.il/%D7%9E%D7%90%D7%9E%D7%A8-%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D.html#!</loc>
+	<lastmod>2022-05-20T13:35:58+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>
