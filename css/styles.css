@@ -9738,3 +9738,104 @@ p.body-font-size {
   text-align: center !important;
   padding-top: 1rem;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  /* padding: 10px; */
+}
+
+.column .square-header {
+  font-size: 20px;
+  white-space: nowrap;
+  text-align: start;
+}
+
+.no-blur {
+  filter: blur(0) !important;
+  -webkit-filter: blur(0) !important;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../assets/img/header-bg.webp");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+@media (min-width: 576px) {
+  .bg-img-fluid {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-img-fluid {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-img-fluid {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-img-fluid {
+    max-width: 1140px;
+  }
+}
+
+
+
+@media (min-width: 576px) {
+  .milka-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .milka-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .milka-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .milka-image {
+    width: 100%;
+  }
+}
