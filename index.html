@@ -6,7 +6,9 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173490138-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-173490138-1');
@@ -20,7 +22,7 @@
     <meta name="author" content="Eliran Avihen" />
     <meta name="keywords"
         content="תעבורה, דיני תעבורה, עורך דין לתעבורה בצפון, מילכה אביחן, נהיגה בשכרות, מהירות מופרזת, שלילה, תאונת דרכים, דוח תנועה, טלפון נייד, משרד רישוי, מכון רפואי, נהיגה בפסילה, נהיגה תחת השפעת סמים" />
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="index,follow" />
     <meta name="google-site-verification" content="tTpRXR76Hpkr0OxM6RZcxzbPsqKTwaOoweLcrv4kHYg" />
     <title>עורך דין תעבורה | מילכה אביחן - משרד עו"ד תעבורה</title>
     <meta property="og:title"
@@ -29,7 +31,7 @@
     <meta property="og:description"
         content="משרד עורכי דין מילכה אביחן מתמחה בדיני תעבורה ועוסק בעבירות תעבורה מכל סוג נהיגה בשכרות או סמים, נהיגה בזמן פסילה, נהיגה במהירות העולה על המותר, תאונות דרכים, נהיגה ללא רישיון נהיגה, דוחות מסוג קנס וכו.
             כמו כן, המשרד מייצג לקוחות מול המכון הרפואי לבטיחות בדרכים וכן, מול משרד רישוי. משרדנו מעניק יחס חם, אישי ומקצועי וזמין לכל שאלה בכל שעה" />
-    <meta property="og:locale" content="he_IL">
+    <meta property="og:locale" content="he_IL" />
     <meta property="og:url" content="https://milka-law.co.il/" />
     <meta property="og:image" content="https://milka-law.co.il/assets/img/team/1.webp" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -49,28 +51,29 @@
     <div id="fb-root"></div>
 
     <!-- Your פלאגין של צ'אט code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
     <script>
         var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "101189944808139");
-        chatbox.setAttribute("attribution", "biz_inbox");
+        chatbox.setAttribute('page_id', '101189944808139');
+        chatbox.setAttribute('attribution', 'biz_inbox');
 
         window.fbAsyncInit = function () {
             FB.init({
                 xfbml: true,
-                version: 'v12.0'
+                version: 'v12.0',
             });
         };
 
         (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
+            var js,
+                fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
+            js = d.createElement(s);
+            js.id = id;
             js.src = 'https://connect.facebook.net/he_IL/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+        })(document, 'script', 'facebook-jssdk');
     </script>
 
     <!-- Message Whatsapp-->
@@ -80,38 +83,64 @@
     </a>
 
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top header-mobile" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <img src="assets/img/navbar-logo.svg" alt="לוגו מילכה אביחן" />
             </a>
-            <button style="direction: ltr;" class="navbar-toggler navbar-toggler-right" type="button"
+            <button style="direction: ltr" class="navbar-toggler navbar-toggler-right" type="button"
                 data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">תפריט<i class="fas fa-bars ml-1"></i></button>
+                aria-expanded="false" aria-label="Toggle navigation">
+                תפריט<i class="fas fa-bars ml-1"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">אודות</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">תחומי פעילות המשרד</a>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#team">אודות</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">מאמרים</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"
-                            style="margin-right: 1rem;">צור קשר</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">תחומי פעילות המשרד</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">מאמרים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact" style="margin-right: 1rem">צור קשר</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading" style="font-weight: bolder; font-style: normal;">מילכה אביחן - משרד עורכי
-                דין</div>
-            <div class="masthead-heading text-uppercase" style="font-size: 3.25rem;">
-                <h1>דיני תעבורה</h1>
+    <header class="masthead"></header>
+
+    <section class="page-section bg-light" id="header-msg" style="padding: 168px 0 !important">
+        <div class="container bg-text">
+            <div class="row">
+                <div class="column mobile-column">
+                    <div class="square-header">
+                        <div class="masthead">
+                            <h1 class="bg-header">מילכה אביחן - משרד עורכי דין</h1>
+                        </div>
+                        <div class="masthead-heading text-uppercase">
+                            <h1 class="bg-small-header">דיני תעבורה, פלילי ונזיקין</h1>
+                        </div>
+                        <div class="masthead-heading phone-button">
+                            <h3 class="header-message">לייעוץ ראשוני ללא התחייבות</h3>
+                            <div class="btn-container" style="padding-left: 45px; padding-top: 15px;">
+                                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger btn-phone-mobile"
+                                    href="tel:050-7516112">050-7516112</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column mobile-column">
+                    <img class="bg-img-fluid img-mobile" src="assets/img/front-image.png" alt="מילכה אביחן" />
+                </div>
             </div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="tel:050-7516112">050-7516112</a>
         </div>
-    </header>
+    </section>
 
     <!-- Team-->
     <section class="page-section" id="team">
@@ -121,7 +150,7 @@
                 <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row">
-                <div class="col-lg-4" style="flex: 0 0 100%; max-width: 100%;">
+                <div class="col-lg-4" style="flex: 0 0 100%; max-width: 100%">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/1.webp" alt="עורכת דין מילכה אביחן" />
                         <h4>עו"ד מילכה אביחן</h4>
@@ -135,64 +164,83 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mobile-row">
                 <div class="col-lg-8 mx-auto text-right">
-                    <p class="body-font-size text-muted">עורכת דין מילכה אביחן בעלת ניסיון של למעלה מעשור בדיני תעבורה.
-                        המשרד מייצג חשודים ונאשמים משלב החקירה במשטרה ולאחר הגשת כתב אישום.
-                        עו"ד מילכה אביחן צברה ניסיון עשיר בשנים בהם עבדה במשרדים המובילים בתחום דיני התעבורה ולזכותה
-                        הישגים משפטיים רבים.
-                        משרד עו"ד מילכה אביחן מתמחה בכל סוגי עבירות התעבורה; </p>
+                    <p class="body-font-size text-muted">
+                        עורכת דין מילכה אביחן בעלת ניסיון של למעלה מעשור בדיני תעבורה.
+                        המשרד מייצג חשודים ונאשמים משלב החקירה במשטרה ולאחר הגשת כתב
+                        אישום. עו"ד מילכה אביחן צברה ניסיון עשיר בשנים בהם עבדה במשרדים
+                        המובילים בתחום דיני התעבורה ולזכותה הישגים משפטיים רבים. משרד עו"ד
+                        מילכה אביחן מתמחה בכל סוגי עבירות התעבורה;
+                    </p>
                 </div>
                 <div class="col-lg-8 mx-auto text-right">
-                    <ul style="list-style-type: circle;">
+                    <ul style="list-style-type: circle">
                         <li>
-                            <p class="body-font-size text-muted">נהיגה בשכרות, נהיגה תחת השפעת אלכוהול ונהיגה תחת השפעת
-                                סמים.</p>
-                        </li>
-                        <li>
-                            <p class="body-font-size text-muted">תאונות דרכים וביניהן תאונות דרכים קטלניות, תאונות דרכים
-                                עם נפגעים, הפקרה, עזיבת מקום תאונה, קלות ראש וכדומה.</p>
-                        </li>
-                        <li>
-                            <p class="body-font-size text-muted">נהיגה בזמן פסילה, נהיגה ללא רשיון נהיגה או רכב ונהיגה
-                                כבלתי מורשה.</p>
-                        </li>
-                        <li>
-                            <p class="body-font-size text-muted">עבירות מהירות, אור אדום, משקל חורג, איסור שימוש וכדומה.
+                            <p class="body-font-size text-muted">
+                                נהיגה בשכרות, נהיגה תחת השפעת אלכוהול ונהיגה תחת השפעת סמים.
                             </p>
                         </li>
                         <li>
-                            <p class="body-font-size text-muted">עבירות מסוג ברירת משפט (שימוש בטלפון נייד, אור אדום,
-                                מהירות, עבירת מצלמה, נסיעה על השול וכו').</p>
+                            <p class="body-font-size text-muted">
+                                תאונות דרכים וביניהן תאונות דרכים קטלניות, תאונות דרכים עם
+                                נפגעים, הפקרה, עזיבת מקום תאונה, קלות ראש וכדומה.
+                            </p>
                         </li>
                         <li>
-                            <p class="body-font-size text-muted">טיפול משפטי בעבירות "נהג חדש".</p>
+                            <p class="body-font-size text-muted">
+                                נהיגה בזמן פסילה, נהיגה ללא רשיון נהיגה או רכב ונהיגה כבלתי
+                                מורשה.
+                            </p>
                         </li>
                         <li>
-                            <p class="body-font-size text-muted">טיפול משפטי מול משרד הרישוי (טיפול בפסילות מנהליות עקב
-                                צבירת נקודות, חישובי פסילה וטיפול שוטף).</p>
+                            <p class="body-font-size text-muted">
+                                עבירות מהירות, אור אדום, משקל חורג, איסור שימוש וכדומה.
+                            </p>
                         </li>
                         <li>
-                            <p class="body-font-size text-muted">טיפול אל מול המכון הרפואי לבטיחות בדרכים (המרב"ד);
-                                ייעוץ והכנה טרם הזימון למכון, ועדות ערר וכו'.</p>
+                            <p class="body-font-size text-muted">
+                                עבירות מסוג ברירת משפט (שימוש בטלפון נייד, אור אדום, מהירות,
+                                עבירת מצלמה, נסיעה על השול וכו').
+                            </p>
                         </li>
                         <li>
-                            <p class="body-font-size text-muted">ביטול פסילות מנהליות והשבתת רכב שניתנו ע"י קצין משטרה.
+                            <p class="body-font-size text-muted">
+                                טיפול משפטי בעבירות "נהג חדש".
+                            </p>
+                        </li>
+                        <li>
+                            <p class="body-font-size text-muted">
+                                טיפול משפטי מול משרד הרישוי (טיפול בפסילות מנהליות עקב צבירת
+                                נקודות, חישובי פסילה וטיפול שוטף).
+                            </p>
+                        </li>
+                        <li>
+                            <p class="body-font-size text-muted">
+                                טיפול אל מול המכון הרפואי לבטיחות בדרכים (המרב"ד); ייעוץ והכנה
+                                טרם הזימון למכון, ועדות ערר וכו'.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="body-font-size text-muted">
+                                ביטול פסילות מנהליות והשבתת רכב שניתנו ע"י קצין משטרה.
                             </p>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-8 mx-auto text-right" style="padding-top: 1rem;">
-                    <p class="body-font-size text-muted" style="text-align: center;">משרדנו מעניק יחס חם, אישי ומקצועי
-                        וזמין לכל שאלה בכל שעה!</p>
-                </div>
-                <div class="col-lg-8 mx-auto justify-content-center row">
-                    <p class="body-font-size text-muted no-cost-header" style="line-height: 0.75;">לייעוץ ראשוני ללא
-                        עלות והתחייבות
+                <div class="col-lg-8 mx-auto text-right" style="padding-top: 1rem">
+                    <p class="body-font-size text-muted" style="text-align: center">
+                        משרדנו מעניק יחס חם, אישי ומקצועי וזמין לכל שאלה בכל שעה!
                     </p>
                 </div>
                 <div class="col-lg-8 mx-auto justify-content-center row">
-                    <p><a href="tel:050-7516112" class="phone-number-link"><i class="fa fa-phone"></i> 050-7516112</a>
+                    <p class="body-font-size text-muted no-cost-header" style="line-height: 0.75">
+                        לייעוץ ראשוני ללא עלות והתחייבות
+                    </p>
+                </div>
+                <div class="col-lg-8 mx-auto justify-content-center row">
+                    <p>
+                        <a href="tel:050-7516112" class="phone-number-link"><i class="fa fa-phone"></i> 050-7516112</a>
                     </p>
                 </div>
             </div>
@@ -211,7 +259,9 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" href="https://milka-law.co.il/נהיגה-בשכרות.html">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.webp" alt="נהיגה בשכרות/סמים"
                                 loading="lazy" />
@@ -226,7 +276,9 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" href="https://milka-law.co.il/נהיגה-בפסילה.html">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.webp" alt="נהיגה בזמן פסילה"
                                 loading="lazy" />
@@ -241,13 +293,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" href="https://milka-law.co.il/נהיגה-במהירות-מופרזת.html">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.webp"
                                 alt="נהיגה במהירות מופרזת" loading="lazy" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">נהיגה במהירות מופרזת</div>
+                            <div class="portfolio-caption-heading">
+                                נהיגה במהירות מופרזת
+                            </div>
                             <div class="portfolio-caption-subheading text-muted"></div>
                         </div>
                     </div>
@@ -256,7 +312,9 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" href="https://milka-law.co.il/תאונות-דרכים.html">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.webp" alt="תאונות דרכים"
                                 loading="lazy" />
@@ -271,7 +329,9 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" href="https://milka-law.co.il/דוחות-תנועה.html">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.webp" alt="דוחות תנועה"
                                 loading="lazy" />
@@ -286,13 +346,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" href="https://milka-law.co.il/משרד-רישוי.html">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.webp"
                                 alt="משרד רישוי/המכון הרפואי" loading="lazy" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">משרד רישוי/המכון הרפואי</div>
+                            <div class="portfolio-caption-heading">
+                                משרד רישוי/המכון הרפואי
+                            </div>
                             <div class="portfolio-caption-subheading text-muted"></div>
                         </div>
                     </div>
@@ -310,60 +374,75 @@
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.webp"
-                            alt="מאמר נהיגה בשכרות" loading="lazy" /></div>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="assets/img/about/1.webp" alt="מאמר נהיגה בשכרות"
+                            loading="lazy" />
+                    </div>
                     <a class="portfolio-link" href="https://milka-law.co.il/מאמר-נהיגה-בשכרות.html">
                         <div class="timeline-panel float-right">
                             <div class="timeline-heading">
                                 <h4 class="subheading">נהיגה בשכרות</h4>
                             </div>
                             <div class="timeline-body body-font-size">
-                                <p class="text-muted">החוק מבחין בין שני מצבי נהיגה שונים בהקשר לנהיגה לאחר צריכת
-                                    אלכוהול. האחד, "נהיגה תחת משקה משכר" והשני, "נהיגה בשכרות".</p><strong
-                                    class="text-muted">להמשך קריאה...</strong>
+                                <p class="text-muted">
+                                    החוק מבחין בין שני מצבי נהיגה שונים בהקשר לנהיגה לאחר צריכת
+                                    אלכוהול. האחד, "נהיגה תחת משקה משכר" והשני, "נהיגה בשכרות".
+                                </p>
+                                <strong class="text-muted">להמשך קריאה...</strong>
                             </div>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.webp"
-                            alt="מאמר נהיגה במהירות מופרזת" loading="lazy" /></div>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="assets/img/about/2.webp"
+                            alt="מאמר נהיגה במהירות מופרזת" loading="lazy" />
+                    </div>
                     <a class="portfolio-link" href="https://milka-law.co.il/מאמר-נהיגה-במהירות-מופרזת.html">
                         <div class="timeline-panel float-left">
                             <div class="timeline-heading">
                                 <h4 class="subheading">נהיגה במהירות מופרזת</h4>
                             </div>
                             <div class="timeline-body body-font-size">
-                                <p class="text-muted">עבירה של נהיגה מעל המהירות המותרת, כפי שמוגדרת בתקנה 54 לתקנות
-                                    התעבורה, היא אחת מן העבירות הנפוצות בישראל. היא נתפשת ע"י בית המשפט והמשטרה כעבירה
-                                    חמורה מאוד.</p><strong class="text-muted">להמשך קריאה...</strong>
+                                <p class="text-muted">
+                                    עבירה של נהיגה מעל המהירות המותרת, כפי שמוגדרת בתקנה 54
+                                    לתקנות התעבורה, היא אחת מן העבירות הנפוצות בישראל. היא נתפשת
+                                    ע"י בית המשפט והמשטרה כעבירה חמורה מאוד.
+                                </p>
+                                <strong class="text-muted">להמשך קריאה...</strong>
                             </div>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.webp"
-                            alt="מאמר תאונות דרכים" loading="lazy" /></div>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="assets/img/about/3.webp" alt="מאמר תאונות דרכים"
+                            loading="lazy" />
+                    </div>
                     <a class="portfolio-link" href="https://milka-law.co.il/מאמר-תאונות-דרכים.html">
                         <div class="timeline-panel float-right">
                             <div class="timeline-heading">
                                 <h4 class="subheading">תאונות דרכים</h4>
                             </div>
                             <div class="timeline-body body-font-size">
-                                <p class="text-muted"> כל אחד מאיתנו, לפחות פעם אחת בחייו, יהיה או היה מעורב בתאונת
-                                    דרכים. לרוב, תוצאות
-                                    התאונה תהיינה קלות ולא יוגש כתב אישום נגד הנהג המעורב ואף לא תינקט סנקציה כזו או
-                                    אחרת. עם זאת, במקרים רבים יוחלט להגיש כתב אישום בגין אשמת הנהג המעורב בתאונת הדרכים.
-                                </p><strong class="text-muted">להמשך קריאה...</strong>
+                                <p class="text-muted">
+                                    כל אחד מאיתנו, לפחות פעם אחת בחייו, יהיה או היה מעורב בתאונת
+                                    דרכים. לרוב, תוצאות התאונה תהיינה קלות ולא יוגש כתב אישום
+                                    נגד הנהג המעורב ואף לא תינקט סנקציה כזו או אחרת. עם זאת,
+                                    במקרים רבים יוחלט להגיש כתב אישום בגין אשמת הנהג המעורב
+                                    בתאונת הדרכים.
+                                </p>
+                                <strong class="text-muted">להמשך קריאה...</strong>
                             </div>
                         </div>
                     </a>
                 </li>
                 <li class="timeline-inverted">
                     <div class="timeline-image">
-                        <a style="color: rgb(0, 0, 0);" href="tel:050-7516112">
-                            <h4>ייעוץ ראשוני<br />
-                                <p style="font-size: larger;">חינם</p>
+                        <a style="color: rgb(0, 0, 0)" href="tel:050-7516112">
+                            <h4>
+                                ייעוץ ראשוני<br />
+                                <p style="font-size: larger">חינם</p>
                             </h4>
                         </a>
                     </div>
@@ -409,8 +488,9 @@
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">שלח/י
-                        הודעה</button>
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">
+                        שלח/י הודעה
+                    </button>
                 </div>
             </form>
         </div>
@@ -420,8 +500,8 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">כל הזכויות שמורות &copy; עו"ד מילכה אביחן
-                    2022
+                <div class="col-lg-4 text-lg-left">
+                    כל הזכויות שמורות &copy; עו"ד מילכה אביחן 2022
                 </div>
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="https://wa.me/972507516112"><i
@@ -433,8 +513,9 @@
                     <a class="btn btn-dark btn-social mx-2" href="https://goo.gl/maps/6pkHDVjS4kLpN7J27"><i
                             class="fas fa-map-marker-alt"></i></a>
                 </div>
-                <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of
-                        Use</a></div>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a>
+                </div>
             </div>
         </div>
     </footer>
