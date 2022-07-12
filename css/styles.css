@@ -11911,3 +11911,62 @@ p.body-font-size {
     margin-top: 1.5rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .mobile-column {
+    width: 100%;
+  }
+
+  .mobile-row {
+    width: 100%;
+  }
+  .img-mobile {
+    width: 70%;
+  }
+  .header-mobile {
+    position: absolute;
+  }
+  .bg-header {
+    font-size: 20px;
+    padding: unset;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .bg-small-header {
+    font-size: 22px;
+    padding: unset;
+  }
+  .header-message {
+    font-size: 20px;
+    padding: unset;
+    text-align: center;
+    color: #fff;
+    margin: 2rem 0;
+  }
+  .square-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .btn-phone-mobile {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+
+  .phone-button {
+    padding-top: unset;
+    padding-right: unset;
+    white-space: unset;
+  }
+
+  .btn-container {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px !important;
+  }
+  .bg-small-header {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+}
