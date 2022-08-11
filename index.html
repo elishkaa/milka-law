@@ -488,7 +488,7 @@
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" value="Send Email">
                         שלח/י הודעה
                     </button>
                 </div>
@@ -530,6 +530,13 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <!-- New Contact form JS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('6emeTh-7-g8bl8cI7')
+    </script>
+    
 </body>
 
 </html>
