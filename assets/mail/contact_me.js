@@ -25,7 +25,6 @@ $(function () {
             formData.append('service_id', 'service_9wcaneg');
             formData.append('template_id', 'template_6bfxc59');
             formData.append('user_id', '6emeTh-7-g8bl8cI7');
-            debugger;
 
             $this = $("#sendMessageButton");
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
