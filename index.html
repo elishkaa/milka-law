@@ -14,6 +14,15 @@
         gtag('config', 'UA-173490138-1');
     </script>
 
+    <!-- New Contact form JS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('6emeTh-7-g8bl8cI7');
+        })();
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description"
@@ -459,28 +468,29 @@
                 <h3 class="section-subheading text-muted"></h3>
             </div>
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <input type="hidden" name="contact_number">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="שם מלא *" required="required"
+                            <input class="form-control" id="name" name="full-name" type="text" placeholder="שם מלא *" required="required"
                                 data-validation-required-message="הכנס בבקשה את שמך המלא." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="אימייל *"
+                            <input class="form-control" id="email" name="email" type="email" placeholder="אימייל *"
                                 required="required"
                                 data-validation-required-message="הכנס בבקשה את כתובת האימייל שלך." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="טלפון *" required="required"
+                            <input class="form-control" id="phone" name="phone" type="tel" placeholder="טלפון *" required="required"
                                 data-validation-required-message="הכנס בבקשה את מספר הטלפון שלך." />
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="הודעה *" required="required"
+                            <textarea class="form-control" id="message" name="message" type="text" placeholder="הודעה *" required="required"
                                 data-validation-required-message="הכנס את ההודעה שלך כאן."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
@@ -488,7 +498,8 @@
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" value="Send Email">
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" name="sendMessageButton" type="submit"
+                        value="Send">
                         שלח/י הודעה
                     </button>
                 </div>
@@ -528,15 +539,9 @@
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
+
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-
-    <!-- New Contact form JS-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        emailjs.init('6emeTh-7-g8bl8cI7')
-    </script>
-    
 </body>
 
 </html>
