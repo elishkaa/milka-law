@@ -7,7 +7,9 @@ $(function () {
             // additional error messages or events
         },
         submitSuccess: function ($form, event) {
+            
             event.preventDefault(); // prevent default submit behaviour
+
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
@@ -18,17 +20,21 @@ $(function () {
             if (firstName.indexOf(" ") >= 0) {
                 firstName = name.split(" ").slice(0, -1).join(" ");
             }
+
+            var formData = new FormData(document.getElementById("contactForm"));
+            formData.append('service_id', 'service_9wcaneg');
+            formData.append('template_id', 'template_6bfxc59');
+            formData.append('user_id', '6emeTh-7-g8bl8cI7');
+            debugger;
+
             $this = $("#sendMessageButton");
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
-            $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbwCFhmWsa2WlRuR2Fu8G15OLxMtSwwv3ApeAJrTZp_khfFrgB_6KK0Bf2WK7TrynK2NDA/exec",
-                type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message,
-                },
+
+            $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
+                type: 'POST',
+                data: formData,
+                contentType: false, // auto-detection
+                processData: false, // no need to parse formData to string
                 cache: false,
                 success: function () {
                     // Success message
@@ -56,8 +62,8 @@ $(function () {
                     $("#success > .alert-danger").append(
                         $("<strong>").text(
                             "סליחה " +
-                                firstName +
-                                ", זה נראה כאילו שרת המייל שלי לא מגיב. נסו שוב מאוחר יותר!"
+                            firstName +
+                            ", זה נראה כאילו שרת המייל שלי לא מגיב. נסו שוב מאוחר יותר!"
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
